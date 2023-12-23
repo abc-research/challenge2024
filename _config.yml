@@ -1,0 +1,91 @@
+title: 6th ABC Challenge
+subtitle: The official website for the 6th ABC challenge.
+description: >- # this means to ignore newlines until "baseurl:"
+  The official website for the 6th ABC challenge.
+
+url: "https://abc-research.github.io/challenge2024" 
+baseurl: "" 
+
+urls:
+    - text: DATA
+      url: /data/
+    - text: TUTORIAL
+      url: /tutorial/
+    - text: FAQ
+      url: /faq/
+    - text: ORGANIZERS
+      url: /organizers/
+    - text: RESULTS
+      url: /results/
+
+author_logo: abc.png
+typewrite-text: <strong>WELCOME TO THE 6TH ABC CHALLENGE !!</strong>
+hero_cover_img: test.png
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+paginate: 10
+per_page: 10
+paginate_path: "/blog/page/:num/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
+  -
+    scope:
+      path: 'assets/**'
+    values:
+      sitemap: false
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-admin
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - assets/bower_components/isotope-layout/README.md
+  - assets/bower_components/icono/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
+  - assets/bower_components/ghosthunter/README.md
+  - assets/bower_components/nanobar/README.md
+  - assets/bower_components/lightgallery/demo/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
+  - assets/bower_components/jquery-mousewheel/README.md
+  - assets/bower_components/get-size/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
+  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
+  - assets/bower_components/desandro-matches-selector/README.md
+  - assets/bower_components/ev-emitter/README.md
+  - assets/bower_components/font-awesome/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
+  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
+  - assets/bower_components/ghosthunter/example/Index.html
+  - assets/bower_components/lightgallery/test/lightgallery.html
+  - assets/bower_components/masonry-layout/README.md
+  - assets/bower_components/imagesloaded/README.md
+
+destination: ./_site
