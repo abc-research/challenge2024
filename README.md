@@ -4,16 +4,18 @@ This is the repository for the [website](https://abc-research.github.io/challeng
 
 
 
-# How to start to make this page
+## How to start to make this page
 [doc](http://jekyllrb-ja.github.io/docs/)
 
+
+## For developer
 
 (if you don't have ruby)
 ```
 brew install ruby
 ```
 
-## setup
+### setup
 
 ```
 $ gem install jekyll bundler
@@ -21,7 +23,7 @@ $ bundle install
 ```
 
 
-## run surver
+### run surver
 
 ```
 $ bundle exec jekyll serve
