@@ -2,8 +2,25 @@
     border-collapse: collapse;
 
 > table, td, th {
-    border: 1px solid black;
+    border: 1px solid var(--bold-color);
     }
+}
+
+h1, h2 {
+    padding: 30px 0 10px 0;
+    border-bottom: solid 3px #f69801;
+}
+h3, h4 {
+    padding: 10px 0 3px 0;
+    border-bottom: solid 2px #f69801;
+}
+.no-line {
+    padding: auto;
+    border: none;
+}
+
+p {
+  text-align: justify;
 }
 
 $body-typeface:'Quicksand', sans-serif;
