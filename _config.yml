@@ -18,7 +18,7 @@ urls:
 
 author_logo: abc.png
 typewrite-text: <strong>WELCOME TO THE 6TH ABC CHALLENGE !!</strong>
-hero_cover_img: test.png
+hero_cover_img: imprimg.png
 
 markdown: kramdown
 highlighter: rouge
