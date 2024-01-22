@@ -1,6 +1,6 @@
-# challenge2023 Website
+# challenge2024 Website
 
-This is the repository for the [website](https://abc-research.github.io/challenge2024/) of the ABC bento activity recognition challenge by [sozolab](https://sozolab.jp)
+This is the repository for the [website](https://abc-research.github.io/challenge2024/) of the 6th ABC challenge by [sozolab](https://sozolab.jp).
 
 
 ## How to start to make this page
