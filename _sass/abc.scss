@@ -8,13 +8,11 @@
 
 .row {
     display: flex;
-    text-align: center;
 }
 
 .column {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex: 33.33%;
     padding: 5px;
 }
