@@ -9,8 +9,10 @@ permalink: /organizers/
 <ul>
     <li style="font-size:20px" align="justify">Haru Kaneko, Kyushu Institute of Technology.</li>
     <li style="font-size:20px" align="justify">Anh Vy Ngô, Kyushu Institute of Technology.</li>
-    <li style="font-size:20px" align="justify">Ryuya Munemoto, Kyushu Institute of Technology.</li>
     <li style="font-size:20px" align="justify">Iqbal Hassan, Kyushu Institute of Technology.</li>
+    <li style="font-size:20px" align="justify">Elsen Ronando, Kyushu Institute of Technology.</li>
+    <li style="font-size:20px" align="justify">Milyun Ni'ma Shoumi, Kyushu Institute of Technology.</li>
+    <li style="font-size:20px" align="justify">Ryuya Munemoto, Kyushu Institute of Technology.</li>
     <li style="font-size:20px" align="justify">Tahera Hossain, Aoyama Gakuin University.</li>
     <li style="font-size:20px" align="justify">Sozo Inoue, Kyushu Institute of Technology.</li>
 </ul>
